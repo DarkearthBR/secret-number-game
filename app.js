@@ -1,5 +1,5 @@
 let ChoosenNumberList = [];
-let numberLimit = 100;
+let numberLimit = 50;
 let secretNumber = generateRandomNumber();
 let trys = 1;
 
@@ -11,7 +11,7 @@ function exibirTextoNaTela(tag, texto) {
 
 function showText() {
     exibirTextoNaTela('h1', 'Secret Number Game')
-    exibirTextoNaTela('p', 'Choose a number between 1 and 100!')
+    exibirTextoNaTela('p', 'Choose a number between 1 and 50!')
 }
 
 showText();
